@@ -29,11 +29,11 @@ def send_email(sender_email, sender_password, recipient_list, subject, body, smt
 
 # Пример использования
 if __name__ == "__main__":
-    sender_email = "vados020676@gmail.com"
-    sender_password = "omjk vegn djyl usri"
-    recipient_list = ['aleksejabdeev11@gmail.com']
-    subject = "Привет это рассылка"
-    body = "сообщение"
+    sender_email = ""# Отправитель
+    sender_password = "omjk vegn djyl usri" # Пароль приложений из Google
+    recipient_list = [] # Список получателей
+    subject = "Заголовок"
+    body = "Сообщение"
     smtp_server = "smtp.gmail.com"  # Например, для Gmail
     smtp_port = 587
     
