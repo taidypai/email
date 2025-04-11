@@ -30,7 +30,7 @@ def send_email(sender_email, sender_password, recipient_list, subject, body, smt
 # Пример использования
 if __name__ == "__main__":
     sender_email = ""# Отправитель
-    sender_password = "omjk vegn djyl usri" # Пароль приложений из Google
+    sender_password = "" # Пароль приложений из Google
     recipient_list = [] # Список получателей
     subject = "Заголовок"
     body = "Сообщение"
